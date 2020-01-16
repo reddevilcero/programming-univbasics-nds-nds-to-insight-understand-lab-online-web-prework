@@ -17,7 +17,7 @@ def print_first_directors_movie_titles
 
   while count < movies.size
 
-    puts  movies[count]
+    puts  movies[count][:title]
     count+= 1
   end
 
